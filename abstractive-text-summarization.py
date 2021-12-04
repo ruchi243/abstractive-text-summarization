@@ -6,12 +6,7 @@ model = T5ForConditionalGeneration.from_pretrained('t5-small')
 tokenizer = T5Tokenizer.from_pretrained('t5-small')
 device = torch.device('cpu')
 
-text ="""
-The US has "passed the peak" on new coronavirus cases, President Donald Trump said and predicted that some states would reopen this month.
-The US has over 637,000 confirmed Covid-19 cases and over 30,826 deaths, the highest for any country in the world.
-At the daily White House coronavirus briefing on Wednesday, Trump said new guidelines to reopen the country would be announced on Thursday after he speaks to governors.
-"We'll be the comeback kids, all of us," he said. "We want to get our country back."
-The Trump administration has previously fixed May 1 as a possible date to reopen the world's largest economy, but the president said some states may be able to return to normalcy earlier than that.
+text =""" Generating random paragraphs can be an excellent way for writers to get their creative flow going at the beginning of the day. The writer has no idea what topic the random paragraph will be about when it appears. This forces the writer to use creativity to complete one of three common writing challenges. The writer can use the paragraph as the first one of a short story and build upon it. A second option is to use the random paragraph somewhere in a short story they create. The third option is to have the random paragraph be the ending paragraph in a short story. No matter which of these challenges is undertaken, the writer is forced to use creativity to incorporate the paragraph into their writing. 
 """
 
 
